@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+<body>
+    <section>
+        <div id="home">
+            <div class="header">
+                <nav>
+                    <p class="comp-name">BUR<span>GER</span></p>
+                    <div class="nav-links" id="navLinks">
+                        <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a class="nav-cont" href="index.html">Home</a></li>
+                            <li><a class="nav-cont" href="about.html">About Us</a></li>
+                            <li><a class="nav-cont" href="menu.html">Menu</a></li>
+                            <li><a class="nav-cont" href="review.html">Review</a></li>
+                            <li><a class="nav-cont" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <i class="bi bi-list" onclick="showMenu()"></i>
+                </nav>
+            </div>
+            <div class="content">
+                <img src="images/burger-removebg-preview.png" class="home-img" alt="">
+                <div>
+                    <p class="cont-name">HAPPY TUMMY WITH <br> WITH TASTY BURGERS</p>
+                     <hr>
+                    <p class="Content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat inventore possimus ducimus rem earum suscipit commodi veritatis deleniti voluptatum dolore, atque explicabo.</p>
+                    <div class="icon-content">
+                        <div>
+                            <iconify-icon class="iconify" icon="icomoon-free:spoon-knife"></iconify-icon>
+                            <p>Delicious</p>
+                        </div>
+                        <div>
+                            <iconify-icon class="iconify" icon="bi:droplet-half"></iconify-icon>
+                            <p>Fresh</p>
+                        </div>
+                        <div>
+                            <iconify-icon class="iconify" icon="ion:leaf"></iconify-icon>
+                            <p>Organic</p>
+                        </div>
+                    </div>
+
+                    <a href="menu.html"><button class="learn-btn">Learn More</button></a>
+                </div>
+            </div>
+            <div class="box-content">
+                <div class="box-content1">
+                    <div class="cont">
+                        <img src="images/burger-removebg-preview - Copy.png" class="image" alt="">
+                        <div class="cont1">
+                            <p class="cont-">FOOD</p>
+                            <p class="cont_">Lorem ipsum dolor sit.</p>
+                            <p class="Cont-">Buy Online</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-content1">
+                    <div class="Cont">
+                        <img src="images/dri-removebg-preview.png" class="image" alt="">
+                        <div class="cont1">
+                            <p class="cont-">FOOD</p>
+                            <p class="cont_">Lorem ipsum dolor sit.</p>
+                            <p class="Cont-">Buy Online</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-content1">
+                    <div class="Cont1">
+                        <img src="images/fries1-removebg-preview - Copy.png" class="image" alt="">
+                        <div class="cont1">
+                            <p class="cont-">FOOD</p>
+                            <p class="cont_">Lorem ipsum dolor sit.</p>
+                            <p class="Cont-">Buy Online</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="copy">TastyBurger © 2024. All right reserved by Tasty Burger.</p>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
