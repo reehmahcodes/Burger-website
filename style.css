@@ -299,7 +299,7 @@ nav .bi {
 
     .About {
         display: block; 
-        margin-left: 50px;
+        margin-left: 80px;
     }
 
     .about-img {
@@ -434,7 +434,7 @@ a {
     }
 
     .menu-boxes {
-        margin-left: 60px;
+        margin-left: 80px;
         display: block;
         margin-top: 0px;
     }
@@ -548,18 +548,17 @@ a {
 
 @media(min-width:200px) and (max-width:700px){
     #Review {
-        height: 250vh;
+        height: 220vh;
     }
 
     .review-boxes{
         display: block;
-        margin-left: 40px;
+        margin-left: 50px;
     }
 
     .down-content {
-        /* display: block; */
         gap: 3rem;
-        height: 50vh;
+        padding-bottom: 20px;
     }
 
     .down-Cont {
